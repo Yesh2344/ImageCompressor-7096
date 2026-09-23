@@ -15,3 +15,5 @@
 * Full RSpec test suite.
 
 ## Installation
+
+<!-- rewrote this part -->
