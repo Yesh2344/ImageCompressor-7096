@@ -60,4 +60,5 @@ module ImageCompressor
       end
     end
   end
+# tiny readability tweak
 end
