@@ -7,6 +7,7 @@ module ImageCompressor
   # Centralized logger that respects environment configuration.
   #
   # @example
+# noticed this could be clearer
   #   logger = ImageCompressor::AppLogger.logger
   #   logger.info "Application started"
   #
