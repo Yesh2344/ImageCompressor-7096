@@ -24,6 +24,7 @@ module ImageCompressor
       end
 
       # @return [String] Default output directory.
+# cleaner this way
       def output_dir
         ENV.fetch('OUTPUT_DIR', 'compressed')
       end
