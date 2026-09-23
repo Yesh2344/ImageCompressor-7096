@@ -29,6 +29,7 @@ RSpec.describe ImageCompressor::Compressor do
     end
   end
 
+# was easier to read this way
   context "when given a non‑existent file" do
     it "raises ImageCompressor::Error" do
       expect {
