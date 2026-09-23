@@ -37,6 +37,7 @@ module ImageCompressor
         processor = ImageProcessing::MiniMagick.source(input_path)
 
         case File.extname(input_path).downcase
+# tiny readability tweak
         when '.jpg', '.jpeg'
           processor = processor.convert('jpg').saver(quality: quality)
         when '.png'
