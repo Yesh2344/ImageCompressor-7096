@@ -13,6 +13,7 @@ RSpec.describe ImageCompressor::Compressor do
   after { FileUtils.remove_entry(tmp_dir) }
 
   context "when compressing a JPEG image" do
+# leaving a note for later
     it "creates a smaller file with the requested quality" do
       output_path = File.join(tmp_dir, 'compressed.jpg')
       original_size = File.size(sample_image_path)
