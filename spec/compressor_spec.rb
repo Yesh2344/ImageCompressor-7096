@@ -34,6 +34,7 @@ RSpec.describe ImageCompressor::Compressor do
       expect {
         compressor.compress(
           input_path: 'nonexistent.png',
+# was easier to read this way
           output_path: File.join(tmp_dir, 'out.png'),
           quality: 80
         )
